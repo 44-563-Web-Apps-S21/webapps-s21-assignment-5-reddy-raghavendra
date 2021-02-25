@@ -29,17 +29,93 @@
             <div class="col-md">Yucca</div>
             <div class="col-md">Avocado</div>
             <div class="col-md">Guava</div>
-
         </div>
     </div>
-    <br><br>
-    <p>
-        The second row with the plant names breaks first. It breaks first since we are using the column class col-md whose size is 768px which is <br> greater than the letters row column class col-sm size which is 576px.The row of the plant breaks once
-        the size of the browser decreases less than 768px.<br> The row of the letters breaks once the size of the browser decreases less than 576px.
+    <div class="container">
+        <img src="Images/Avocado.jpg" width="400" height="400" class="img-fluid" alt="Avocado">
+        <img src="Images/Eucalyptus.jpg" width="300" height="300" class="img-fluid" alt="Eucalyptus">
+        <img src="Images/Radish.jpg" width="300" height="300" class="img-fluid" alt="Radish">
+    </div>
+    <div class="container">
+        <img src="Images/Avocado.jpg" width="400" height="400" class="img-fluid img-thumbnail rounded" alt="Avocado">
+        <img src="Images/Eucalyptus.jpg" width="300" height="300" class="img-fluid img-thumbnail rounded" alt="Eucalyptus">
+        <img src="Images/Radish.jpg" width="300" height="300" class="img-fluid img-thumbnail rounded" alt="Radish">
+    </div>
+    <div class="container">
+        <table class="table table-bordered table-hover">
+            <caption>list of Plants</caption>
+            <thead class="thead-light">
+                <tr>
+                    <th class="thead-light" scope="col">Letter</th>
+                    <th class="thead-light" scope="col">Plant</th>
+                    <th class="thead-light" scope="col">City</th>
+                    <th class="thead-light" scope="col">Food</th>
+                </tr>
+            </thead>
+            <tr>
+                <td scope="row">R</td>
+                <td scope="row">Radish</td>
+                <td scope="row">Raipur</td>
+                <td scope="row">Roti Prata</td>
+            </tr>
+            <tr>
+                <td scope="row">E</td>
+                <td scope="row">Eucalyptus</td>
+                <td scope="row">El Paso</td>
+                <td scope="row">Egroll</td>
 
-    </p>
+            </tr>
+            <tr>
+                <td scope="row">Y</td>
+                <td scope="row">Yucca</td>
+                <td scope="row">Yadgir</td>
+                <td scope="row">Yuca</td>
 
+            </tr>
+            <tr>
+                <td scope="row">A</td>
+                <td scope="row">Avocado</td>
+                <td scope="row">Ahmedabad</td>
+                <td scope="row">Aloo Gobi</td>
+            </tr>
+            <tr>
+                <td scope="row">D</td>
+                <td scope="row">Drumsticks</td>
+                <td scope="row">Delhi</td>
+                <td scope="row">Dhokla</td>
+            </tr>
+            <tr>
+                <td scope="row">G</td>
+                <td scope="row">Guava</td>
+                <td scope="row">Guwahati</td>
+                <td scope="row">Gobi Manchurian</td>
+            </tr>
+        </table>
+    </div>
+    <div class="btn-toolbar container" role="toolbar" aria-label="Toolbar with plants">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button class="btn btn-success">Radish</button>
+            <button class="btn btn-success">Eucalyptus</button>
+            <button class="btn btn-success">Drumsticks</button>
+        </div>
+        <div class="btn-group mr-2" role="First group">
+            <button class="btn btn-warning">Yucca</button>
+            <button class="btn btn-warning">Avocado</button>
+        </div>
+        <div class="btn-group" role="First group">
+            <button class="btn btn-danger">Guava</button>
+        </div>
+    </div>
+    <div class="dropdown container">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Other Pages
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownButton">
+            <a class="dropdown-item" href="cat.html">Cat Page</a>
+            <a class="dropdown-item" href="dog.html">Dog Page</a>
+        </div>
 
+    </div>
 </body>
 
 </html>
